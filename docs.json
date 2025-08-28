@@ -9,37 +9,27 @@
   },
   "favicon": "/favicon.ico",
   "css": ["./style.css"],
-  "navigation": {
-    "tabs": [
+    "navigation": {
+    "dropdowns": [
       {
-        "tab": "Documentação",
+        "dropdown": "Documentação",
+        "icon": "book",
+        "description": "Documentação do LiPo.",
         "groups": [
           {
             "group": "Comece agora mesmo",
             "pages": [
-              "index",
-              "inicio",
-              "desenvolvimento"
+             "index", "inicio", "desenvolvimento"
             ]
           },
           {
             "group": "Essenciais",
-            "subgroups": [
-              {
-                "group": "Estrutura da Linguagem",
-                "pages": [
-                  "essentials/estrutura_lexica",
-                  "essentials/identificadores",
-                  "essentials/palavras_reservadas"
-                ]
-              },
-              {
-                "group": "Tipos de Dados",
-                "pages": [
-                  "essentials/tipos_dados",
-                  "essentials/conversao"
-                ]
-              }
+            "pages": [
+              "essentials/estrutura_lexica",
+              "essentials/identificadores",
+              "essentials/palavras_reservadas",
+              "essentials/tipos_dados",
+              "essentials/conversao"
             ]
           },
           {
@@ -49,127 +39,119 @@
               "variaveis_constantes/Declaração de Constantes"
             ]
           },
-          {
+         {
             "group": "Operadores",
-            "subgroups": [
-              {
-                "group": "Aritméticos e Comparação",
-                "pages": [
-                  "operadores/operadores_aritmeticos",
-                  "operadores/comparacao"
-                ]
-              },
-              {
-                "group": "Lógicos e Outros",
-                "pages": [
-                  "operadores/logicos",
-                  "operadores/atribuicao",
-                  "operadores/incremento_decremento",
-                  "operadores/operador_tipode",
-                  "operadores/precedencia_operadores"
-                ]
-              }
+            "pages": [
+            "operadores/logicos",
+            "operadores/atribuicao",
+            "operadores/incremento_decremento",
+            "operadores/operador_tipode",
+            "operadores/precedencia_operadores"
             ]
           },
           {
             "group": "Estruturas de Controle",
             "pages": [
-              "estruturas_de_controle/condicional",
-              "estruturas_de_controle/condicional_ternaria",
-              "estruturas_de_controle/loop_while",
-              "estruturas_de_controle/loop_for",
-              "estruturas_de_controle/loop_for_incremento",
-              "estruturas_de_controle/loop_for_decremento",
-              "estruturas_de_controle/loop_for_estiloC",
-              "estruturas_de_controle/switch_case",
-              "estruturas_de_controle/controle_loop",
-              "estruturas_de_controle/break",
-              "estruturas_de_controle/continue"
+            "estruturas_de_controle/condicional",
+            "estruturas_de_controle/condicional_ternaria",
+            "estruturas_de_controle/loop_while",
+            "estruturas_de_controle/loop_for",
+            "estruturas_de_controle/loop_for_incremento",
+            "estruturas_de_controle/loop_for_decremento",
+            "estruturas_de_controle/loop_for_estiloC",
+            "estruturas_de_controle/switch_case",
+            "estruturas_de_controle/controle_loop",
+            "estruturas_de_controle/break",
+            "estruturas_de_controle/continue"
             ]
           },
           {
             "group": "Funções",
             "pages": [
-              "funcoes/funcao_vazia",
-              "funcoes/funcao_retorno",
-              "funcoes/funcao_mista"
+            "funcoes/funcao_vazia",
+            "funcoes/funcao_retorno",
+            "funcoes/funcao_recursiva",
+            "funcoes/funcao_mista"
+            ]
+          },
+          {
+            "group": "Sistema de Imports",
+            "pages": [
+            "sistema_imports/importacao_basico",
+            "sistema_imports/importacao_alias",
+            "sistema_imports/import_exemplos"
+            ]
+          },
+          {
+            "group": "Itens Gerais",
+            "pages": [
+            "itens_geral/biblioteca",
+            "itens_geral/comentarios"
+            ]
+          },
+          {
+            "group": "Itens Gerais",
+            "pages": [
+            "gramatica_formal/estrutura_geral_programa",
+            "gramatica_formal/instrucoes_statements",
+            "gramatica_formal/expressoes",
+            "gramatica_formal/literais_tokens"
+            ]
+          },
+          {
+            "group": "Exemplos Práticos",
+            "pages": [
+            "exemplos_praticos/exemplo1_programa_basico",
+            "exemplos_praticos/exemplo2_estruturas_de_controle",
+            "exemplos_praticos/exemplo3_funcoes",
+            "exemplos_praticos/exemplo4_switch_case",
+            "exemplos_praticos/exemplo5_imports",
+            "exemplos_praticos/exemplo6_recursividade"
             ]
           }
         ]
       },
       {
-        "tab": "Sobre",
-        "groups": [
-          {
-            "group": "Sobre a LiPo",
-            "pages": [
-              "sobre/introduction",
-              "sobre/endpoint/licenca",
-              "sobre/endpoint/como_contribuir"
-            ]
-          },
-          {
-            "group": "Links Úteis",
-            "pages": [
-              "sobre/links/github",
-              "sobre/links/referencias"
-            ]
-          }
+        "dropdown": "Importante",
+        "icon": "heart",
+        "description": "como_contribuir, licenca e Sobre",
+        "pages": [
+          "como_contribuir",
+          "licenca",
+          "sobre"
         ]
       }
     ]
   },
+     
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
- 
   },
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Editor lipolang",
+      "label": "Editor LiPoLang",
       "href": "https://editor.lipolang.dev"
     }
   },
   "footer": {
     "socials": {
       "github": "https://github.com/karlaycosta/lipo_compiler"
- 
     },
     "links": [
       {
         "header": "Navbar",
         "items": [
-          {
-            "label": "Home",
-            "href": "https://whimsical-cajeta-1190cd.netlify.app"
-          },
-        
-       
-          {
-            "label": "Ajuda",
-            "href": "https://whimsical-cajeta-1190cd.netlify.app/ajuda"
-          },
-          {
-            "label": "Sobre nós",
-            "href": "https://teste-94e5b8ab.mintlify.app"
-          }
+          { "label": "Home", "href": "https://whimsical-cajeta-1190cd.netlify.app" },
+          { "label": "Ajuda", "href": "https://whimsical-cajeta-1190cd.netlify.app/ajuda" },
+          { "label": "Sobre nós", "href": "https://teste-94e5b8ab.mintlify.app" }
         ]
       },
       {
         "header": "Compilador online LiPo",
-        "items": [
-          {
-            "label": "compilador Online",
-            "href": "https://editor.lipolang.dev"
-          }
-         
-        ]
+        "items": [{ "label": "Compilador Online", "href": "https://editor.lipolang.dev" }]
       }
     ]
   }
 }
- 
-
-
- 
