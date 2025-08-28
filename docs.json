@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "LiPo AI Docs",
   "colors": {
-    "primary": "#2563EB",
-    "light": "#3B82F6",
-    "dark": "#1E40AF"
+  "primary": "#1D4ED8",    
+  "light": "#3B82F6",      
+  "dark": "#1E40AF"        
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,37 +14,68 @@
         "tab": "Documentação",
         "groups": [
           {
-            "group": "Primeiros passos",
+            "group": "Comece agora mesmo",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "inicio_rapido",
+              "desenvolvimento"
             ]
           },
           {
-            "group": "Customização",
+            "group": "Essenciais",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "essentials/estrutura_lexica",
+              "essentials/identificadores",
+              "essentials/palavras_reservadas",
+              "essentials/tipos_dados",
+              "essentials/conversao"
             ]
           },
           {
-            "group": "Escrevendo conteúdo",
+            "group": " Variáveis e Constantes",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "variaveis_constantes/Declaração de Variáveis",
+              "variaveis_constantes/Declaração de Constantes"
+ 
+            ]
+          },
+           {
+            "group": " Operadores",
+            "pages": [
+              "operadores/operadores_aritmeticos",
+              "operadores/comparacao",
+              "operadores/logicos",
+              "operadores/atribuicao",
+              "operadores/incremento_decremento",
+              "operadores/operador_tipode",
+              "operadores/precedencia_operadores"
             ]
           },
           {
-            "group": "Ferramentas de AI",
+            "group": " Estruturas de Controle",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "estruturas_de_controle/condicional",
+              "estruturas_de_controle/condicional_ternaria",
+              "estruturas_de_controle/loop_while",
+              "estruturas_de_controle/loop_for",
+              "estruturas_de_controle/loop_for_incremento",
+              "estruturas_de_controle/loop_for_decremento",
+              "estruturas_de_controle/loop_for_estiloC",
+              "estruturas_de_controle/switch_case",
+              "estruturas_de_controle/controle_loop",
+              "estruturas_de_controle/break",
+              "estruturas_de_controle/continue"
+            ]
+          },
+           {
+            "group": " Funções",
+            "pages": [
+              "funcoes/funcao_vazia",
+              "funcoes/funcao_retorno",
+              "funcoes/funcao_mista" 
             ]
           }
+        
         ]
       },
       {
@@ -71,20 +102,23 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+    "dark": "/logo/dark.svg",
+      "height": "50px",
+      "width": "auto",
+      "max-width": "200px"
+    },
+ 
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Home - Site",
       "href": "https://x.com/"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/",
-      "github": "https://github.com/",
-      "linkedin": "https://linkedin.com/company/"
+      "github": "https://github.com/"
+
     }
   }
 }
