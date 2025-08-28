@@ -10,7 +10,7 @@
   "favicon": "./lipo.svg",
   "css": ["./style.css"],
   "js": ["./vlibras.js"],
-
+  
   "navigation": {
     "dropdowns": [
       {
@@ -44,11 +44,13 @@
          {
             "group": "Operadores",
             "pages": [
-            "operadores/logicos",
-            "operadores/atribuicao",
-            "operadores/incremento_decremento",
-            "operadores/operador_tipode",
-            "operadores/precedencia_operadores"
+            "operadores/operadores_aritmeticos",
+            "operadores/operadores_comparacao",
+            "operadores/operadores_logicos",
+            "operadores/operador_atribuicao",
+            "operadores/operadores_incremento_decremento",
+            "operadores/operadores_tipode",
+            "operadores/operadores_precedencia"
             ]
           },
           {
