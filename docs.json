@@ -7,7 +7,7 @@
     "light": "#0277bd",
     "dark": "#1a2b3a"
   },
-  "favicon": "./favicon.ico",
+  "favicon": "/favicon.ico",
   "css": ["./style.css"],
   "navigation": {
     "tabs": [
@@ -127,8 +127,8 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Home - Site",
-      "href": "https://x.com/"
+      "label": "Editor lipolang",
+      "href": "https://editor.lipolang.dev"
     }
   },
   "footer": {
@@ -144,10 +144,8 @@
             "label": "Home",
             "href": "https://whimsical-cajeta-1190cd.netlify.app"
           },
-          {
-            "label": "Documentação",
-            "href": "https://example.com/enterprise"
-          },
+        
+       
           {
             "label": "Ajuda",
             "href": "https://whimsical-cajeta-1190cd.netlify.app/ajuda"
