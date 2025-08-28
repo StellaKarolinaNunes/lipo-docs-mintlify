@@ -3,11 +3,12 @@
   "theme": "maple",
   "name": "LiPo AI Docs",
   "colors": {
-  "primary": "#1D4ED8",    
-  "light": "#3B82F6",      
-  "dark": "#1E40AF"        
+  "primary": "#0d47a1",    
+  "light": "#0277bd",      
+  "dark": "#1a2b3a"        
   },
   "favicon": "/favicon.svg",
+  "css": ["./styles.css"],
   "navigation": {
     "tabs": [
       {
@@ -17,7 +18,7 @@
             "group": "Comece agora mesmo",
             "pages": [
               "index",
-              "inicio_rapido",
+              "inicio",
               "desenvolvimento"
             ]
           },
@@ -78,24 +79,27 @@
         
         ]
       },
+
+   
       {
-        "tab": "Referência API",
+        "tab": "Sobre",
         "groups": [
           {
-            "group": "Documentação API",
+            "group": "Sobre a LiPo",
             "pages": [
-              "api-reference/introduction"
+              "sobre/introduction",
+              "sobre/endpoint/licenca",
+              "sobre/endpoint/como contribuir"
             ]
           },
           {
-            "group": "Exemplos de Endpoints",
+            "group": "Links Úteis",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "sobre/links/github",
+              "sobre/links/referencias"
             ]
           }
+         
         ]
       }
     ]
