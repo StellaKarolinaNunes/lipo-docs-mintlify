@@ -38,3 +38,8 @@ a:hover {
   text-decoration: underline;
 }
  
+.nav-logo {
+  height: 60px;      /* altura desejada */
+  max-width: 200px;  /* largura máxima desejada */
+  object-fit: contain;
+}

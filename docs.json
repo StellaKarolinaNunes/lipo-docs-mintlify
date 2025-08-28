@@ -121,10 +121,8 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
-    "height": "900px",
-    "width": "auto",
-    "max-width": "900px"
+    "dark": "/logo/dark.svg"
+ 
   },
   "navbar": {
     "primary": {
@@ -136,6 +134,44 @@
   "footer": {
     "socials": {
       "github": "https://github.com/karlaycosta/lipo_compiler"
-    }
+ 
+    },
+    "links": [
+      {
+        "header": "Navbar",
+        "items": [
+          {
+            "label": "Home",
+            "href": "https://whimsical-cajeta-1190cd.netlify.app"
+          },
+          {
+            "label": "Documentação",
+            "href": "https://example.com/enterprise"
+          },
+          {
+            "label": "Ajuda",
+            "href": "https://whimsical-cajeta-1190cd.netlify.app/ajuda"
+          },
+          {
+            "label": "Sobre nós",
+            "href": "https://teste-94e5b8ab.mintlify.app"
+          }
+        ]
+      },
+      {
+        "header": "Compilador online LiPo",
+        "items": [
+          {
+            "label": "compilador Online",
+            "href": "https://editor.lipolang.dev"
+          }
+         
+        ]
+      }
+    ]
   }
 }
+ 
+
+
+ 
