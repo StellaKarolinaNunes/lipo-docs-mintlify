@@ -31,9 +31,7 @@ Para acessar a documentação completa da LiPo e aprender como usar a linguagem,
 - **Sintaxe em Português** - Aproxima o código da língua natural
 - **Educacional** - Focada no aprendizado de programação
 - **Tipagem Estática** - Maior segurança e detecção de erros
-- **Inferência de Tip![![dark](https://github.com/user-attachments/assets/2ef72a40-2a63-4a0d-923c-c63a2ac23e26)
-dark](https://github.com/user-attachments/assets/c612586e-575f-4ade-84fb-a380cf1bc66c)
-os** - Menos declarações explícitas necessárias
+- **Inferência de Tipos** - Menos declarações explícitas necessárias
 
 <br>
 
