@@ -7,9 +7,11 @@
     "light": "#0277bd",
     "dark": "#1a2b3a"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "./lipo.svg",
   "css": ["./style.css"],
-    "navigation": {
+  "js": ["./vlibras.js"],
+
+  "navigation": {
     "dropdowns": [
       {
         "dropdown": "Documentação",
@@ -35,8 +37,8 @@
           {
             "group": "Variáveis e Constantes",
             "pages": [
-              "variaveis_constantes/Declaração de Variáveis",
-              "variaveis_constantes/Declaração de Constantes"
+              "variaveis_constantes/declaração_de_Variáveis",
+              "variaveis_constantes/declaração_de_Constantes"
             ]
           },
          {
@@ -101,12 +103,12 @@
           {
             "group": "Exemplos Práticos",
             "pages": [
-            "exemplos_praticos/exemplo1_programa_basico",
-            "exemplos_praticos/exemplo2_estruturas_de_controle",
-            "exemplos_praticos/exemplo3_funcoes",
-            "exemplos_praticos/exemplo4_switch_case",
-            "exemplos_praticos/exemplo5_imports",
-            "exemplos_praticos/exemplo6_recursividade"
+            "exemplos_praticos/exemplo_1_programa_basico",
+            "exemplos_praticos/exemplo_2_estruturas_de_controle",
+            "exemplos_praticos/exemplo_3_funcoes",
+            "exemplos_praticos/exemplo_4_switch_case",
+            "exemplos_praticos/exemplo_5_imports",
+            "exemplos_praticos/exemplo_6_recursividade"
             ]
           }
         ]
@@ -114,11 +116,20 @@
       {
         "dropdown": "Importante",
         "icon": "heart",
-        "description": "como_contribuir, licenca e Sobre",
+        "description": "como_contribuir, licenca e sobre",
         "pages": [
           "como_contribuir",
           "licenca",
           "sobre"
+        ]
+        
+      },
+       {
+        "dropdown": "Compilador online LiPo",
+        "icon": "computer",
+        "description": "Site compilador online LiPo",
+        "pages": [
+        "https://editor.lipolang.dev"
         ]
         
       }
