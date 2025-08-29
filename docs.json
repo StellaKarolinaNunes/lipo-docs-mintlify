@@ -11,118 +11,121 @@
   "css": ["./style.css"],
   "js": ["./vlibras.js"],
   
-  "navigation": {
-    "dropdowns": [
-      {
-        "dropdown": "Documentação",
-        "icon": "book",
-        "description": "Documentação do LiPo.",
-        "groups": [
-          {
-            "group": "Comece agora mesmo",
-            "pages": [
-             "index", "inicio", "desenvolvimento"
-            ]
-          },
-          {
-            "group": "Essenciais",
-            "pages": [
-              "essentials/estrutura_lexica",
-              "essentials/identificadores",
-              "essentials/palavras_reservadas",
-              "essentials/tipos_dados",
-              "essentials/conversao"
-            ]
-          },
-          {
-            "group": "Variáveis e Constantes",
-            "pages": [
-              "variaveis_constantes/declaração_de_Variáveis",
-              "variaveis_constantes/declaração_de_Constantes"
-            ]
-          },
-         {
-            "group": "Operadores",
-            "pages": [
-            "operadores/operadores_aritmeticos",
-            "operadores/operadores_comparacao",
-            "operadores/operadores_logicos",
-            "operadores/operador_atribuicao",
-            "operadores/operadores_incremento_decremento",
-            "operadores/operadores_tipode",
-            "operadores/operadores_precedencia"
-            ]
-          },
-          {
-            "group": "Estruturas de Controle",
-            "pages": [
-            "estruturas_de_controle/condicional",
-            "estruturas_de_controle/condicional_ternaria",
-            "estruturas_de_controle/loop_while",
-            "estruturas_de_controle/loop_for",
-            "estruturas_de_controle/loop_for_incremento",
-            "estruturas_de_controle/loop_for_decremento",
-            "estruturas_de_controle/loop_for_estiloC",
-            "estruturas_de_controle/switch_case",
-            "estruturas_de_controle/controle_loop",
-            "estruturas_de_controle/break",
-            "estruturas_de_controle/continue"
-            ]
-          },
-          {
-            "group": "Funções",
-            "pages": [
-            "funcoes/funcao_vazia",
-            "funcoes/funcao_retorno",
-            "funcoes/funcao_recursiva",
-            "funcoes/funcao_mista"
-            ]
-          },
-          {
-            "group": "Sistema de Imports",
-            "pages": [
-            "sistema_imports/importacao_basico",
-            "sistema_imports/importacao_alias",
-            "sistema_imports/import_exemplos"
-            ]
-          },
-          {
-            "group": "Itens Gerais",
-            "pages": [
-            "itens_geral/biblioteca",
-            "itens_geral/comentarios"
-            ]
-          },
-          {
-            "group": "Itens Gerais",
-            "pages": [
-            "gramatica_formal/estrutura_geral_programa",
-            "gramatica_formal/instrucoes_statements",
-            "gramatica_formal/expressoes",
-            "gramatica_formal/literais_tokens"
-            ]
-          },
-          {
-            "group": "Exemplos Práticos",
-            "pages": [
-            "exemplos_praticos/exemplo_1_programa_basico",
-            "exemplos_praticos/exemplo_2_estruturas_de_controle",
-            "exemplos_praticos/exemplo_3_funcoes",
-            "exemplos_praticos/exemplo_4_switch_case",
-            "exemplos_praticos/exemplo_5_imports",
-            "exemplos_praticos/exemplo_6_recursividade"
-            ]
-          }
-        ]
-      },
+ "navigation": {
+  "dropdowns": [
+    {
+      "dropdown": "Documentação",
+      "icon": "book",
+      "description": "Documentação do LiPo.",
+      "groups": [
+        {
+          "group": "Comece agora mesmo",
+          "pages": [
+            "docs/index",
+            "docs/inicio",
+            "docs/desenvolvimento"
+          ]
+        },
+        {
+          "group": "Essenciais",
+          "pages": [
+            "docs/essentials/estrutura_lexica",
+            "docs/essentials/identificadores",
+            "docs/essentials/palavras_reservadas",
+            "docs/essentials/tipos_dados",
+            "docs/essentials/conversao"
+          ]
+        },
+        {
+          "group": "Variáveis e Constantes",
+          "pages": [
+            "docs/variaveis_constantes/declaração_de_Variáveis",
+            "docs/variaveis_constantes/declaração_de_Constantes"
+          ]
+        },
+        {
+          "group": "Operadores",
+          "pages": [
+            "docs/operadores/operadores_aritmeticos",
+            "docs/operadores/operadores_comparacao",
+            "docs/operadores/operadores_logicos",
+            "docs/operadores/operador_atribuicao",
+            "docs/operadores/operadores_incremento_decremento",
+            "docs/operadores/operadores_tipode",
+            "docs/operadores/operadores_precedencia"
+          ]
+        },
+        {
+          "group": "Estruturas de Controle",
+          "pages": [
+            "docs/estruturas_de_controle/condicional",
+            "docs/estruturas_de_controle/condicional_ternaria",
+            "docs/estruturas_de_controle/loop_while",
+            "docs/estruturas_de_controle/loop_for",
+            "docs/estruturas_de_controle/loop_for_incremento",
+            "docs/estruturas_de_controle/loop_for_decremento",
+            "docs/estruturas_de_controle/loop_for_estiloC",
+            "docs/estruturas_de_controle/switch_case",
+            "docs/estruturas_de_controle/controle_loop",
+            "docs/estruturas_de_controle/break",
+            "docs/estruturas_de_controle/continue"
+          ]
+        },
+        {
+          "group": "Funções",
+          "pages": [
+            "docs/funcoes/funcao_vazia",
+            "docs/funcoes/funcao_retorno",
+            "docs/funcoes/funcao_recursiva",
+            "docs/funcoes/funcao_mista"
+          ]
+        },
+        {
+          "group": "Sistema de Imports",
+          "pages": [
+            "docs/sistema_imports/importacao_basico",
+            "docs/sistema_imports/importacao_alias",
+            "docs/sistema_imports/import_exemplos"
+          ]
+        },
+        {
+          "group": "Itens Gerais",
+          "pages": [
+            "docs/itens_geral/biblioteca",
+            "docs/itens_geral/comentarios"
+          ]
+        },
+        {
+          "group": "Gramatica Formal",
+          "pages": [
+            "docs/gramatica_formal/estrutura_geral_programa",
+            "docs/gramatica_formal/instrucoes_statements",
+            "docs/gramatica_formal/expressoes",
+            "docs/gramatica_formal/literais_tokens"
+          ]
+        },
+        {
+          "group": "Exemplos Práticos",
+          "pages": [
+            "docs/exemplos_praticos/exemplo_1_programa_basico",
+            "docs/exemplos_praticos/exemplo_2_estruturas_de_controle",
+            "docs/exemplos_praticos/exemplo_3_funcoes",
+            "docs/exemplos_praticos/exemplo_4_switch_case",
+            "docs/exemplos_praticos/exemplo_5_imports",
+            "docs/exemplos_praticos/exemplo_6_recursividade"
+          ]
+        }
+      ]
+    },
+
       {
         "dropdown": "Importante",
         "icon": "heart",
         "description": "como_contribuir, licenca e sobre",
         "pages": [
-          "como_contribuir",
-          "licenca",
-          "sobre"
+          "docs/como_contribuir",
+          "docs/licenca",
+          "docs/sobre"
         ]
         
       },
