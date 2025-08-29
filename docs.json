@@ -21,98 +21,98 @@
         {
           "group": "Comece agora mesmo",
           "pages": [
-            "docs/index",
-            "docs/inicio",
-            "docs/desenvolvimento"
+            "pages/index",
+            "pages/inicio",
+            "pages/desenvolvimento"
           ]
         },
         {
           "group": "Essenciais",
           "pages": [
-            "docs/essentials/estrutura_lexica",
-            "docs/essentials/identificadores",
-            "docs/essentials/palavras_reservadas",
-            "docs/essentials/tipos_dados",
-            "docs/essentials/conversao"
+            "pages/essentials/estrutura_lexica",
+            "pages/essentials/identificadores",
+            "pages/essentials/palavras_reservadas",
+            "pages/essentials/tipos_dados",
+            "pages/essentials/conversao"
           ]
         },
         {
           "group": "Variáveis e Constantes",
           "pages": [
-            "docs/variaveis_constantes/declaração_de_Variáveis",
-            "docs/variaveis_constantes/declaração_de_Constantes"
+            "pages/variaveis_constantes/declaração_de_Variáveis",
+            "pages/variaveis_constantes/declaração_de_Constantes"
           ]
         },
         {
           "group": "Operadores",
           "pages": [
-            "docs/operadores/operadores_aritmeticos",
-            "docs/operadores/operadores_comparacao",
-            "docs/operadores/operadores_logicos",
-            "docs/operadores/operador_atribuicao",
-            "docs/operadores/operadores_incremento_decremento",
-            "docs/operadores/operadores_tipode",
-            "docs/operadores/operadores_precedencia"
+            "pages/operadores/operadores_aritmeticos",
+            "pages/operadores/operadores_comparacao",
+            "pages/operadores/operadores_logicos",
+            "pages/operadores/operador_atribuicao",
+            "pages/operadores/operadores_incremento_decremento",
+            "pages/operadores/operadores_tipode",
+            "pages/operadores/operadores_precedencia"
           ]
         },
         {
           "group": "Estruturas de Controle",
           "pages": [
-            "docs/estruturas_de_controle/condicional",
-            "docs/estruturas_de_controle/condicional_ternaria",
-            "docs/estruturas_de_controle/loop_while",
-            "docs/estruturas_de_controle/loop_for",
-            "docs/estruturas_de_controle/loop_for_incremento",
-            "docs/estruturas_de_controle/loop_for_decremento",
-            "docs/estruturas_de_controle/loop_for_estiloC",
-            "docs/estruturas_de_controle/switch_case",
-            "docs/estruturas_de_controle/controle_loop",
-            "docs/estruturas_de_controle/break",
-            "docs/estruturas_de_controle/continue"
+            "pages/estruturas_de_controle/condicional",
+            "pages/estruturas_de_controle/condicional_ternaria",
+            "pages/estruturas_de_controle/loop_while",
+            "pages/estruturas_de_controle/loop_for",
+            "pages/estruturas_de_controle/loop_for_incremento",
+            "pages/estruturas_de_controle/loop_for_decremento",
+            "pages/estruturas_de_controle/loop_for_estiloC",
+            "pages/estruturas_de_controle/switch_case",
+            "pages/estruturas_de_controle/controle_loop",
+            "pages/estruturas_de_controle/break",
+            "pages/estruturas_de_controle/continue"
           ]
         },
         {
           "group": "Funções",
           "pages": [
-            "docs/funcoes/funcao_vazia",
-            "docs/funcoes/funcao_retorno",
-            "docs/funcoes/funcao_recursiva",
-            "docs/funcoes/funcao_mista"
+            "pages/funcoes/funcao_vazia",
+            "pages/funcoes/funcao_retorno",
+            "pages/funcoes/funcao_recursiva",
+            "pages/funcoes/funcao_mista"
           ]
         },
         {
           "group": "Sistema de Imports",
           "pages": [
-            "docs/sistema_imports/importacao_basico",
-            "docs/sistema_imports/importacao_alias",
-            "docs/sistema_imports/import_exemplos"
+            "pages/sistema_imports/importacao_basico",
+            "pages/sistema_imports/importacao_alias",
+            "pages/sistema_imports/import_exemplos"
           ]
         },
         {
           "group": "Itens Gerais",
           "pages": [
-            "docs/itens_geral/biblioteca",
-            "docs/itens_geral/comentarios"
+            "pages/itens_geral/biblioteca",
+            "pages/itens_geral/comentarios"
           ]
         },
         {
           "group": "Gramatica Formal",
           "pages": [
-            "docs/gramatica_formal/estrutura_geral_programa",
-            "docs/gramatica_formal/instrucoes_statements",
-            "docs/gramatica_formal/expressoes",
-            "docs/gramatica_formal/literais_tokens"
+            "pages/gramatica_formal/estrutura_geral_programa",
+            "pages/gramatica_formal/instrucoes_statements",
+            "pages/gramatica_formal/expressoes",
+            "pages/gramatica_formal/literais_tokens"
           ]
         },
         {
           "group": "Exemplos Práticos",
           "pages": [
-            "docs/exemplos_praticos/exemplo_1_programa_basico",
-            "docs/exemplos_praticos/exemplo_2_estruturas_de_controle",
-            "docs/exemplos_praticos/exemplo_3_funcoes",
-            "docs/exemplos_praticos/exemplo_4_switch_case",
-            "docs/exemplos_praticos/exemplo_5_imports",
-            "docs/exemplos_praticos/exemplo_6_recursividade"
+            "pages/exemplos_praticos/exemplo_1_programa_basico",
+            "pages/exemplos_praticos/exemplo_2_estruturas_de_controle",
+            "pages/exemplos_praticos/exemplo_3_funcoes",
+            "pages/exemplos_praticos/exemplo_4_switch_case",
+            "pages/exemplos_praticos/exemplo_5_imports",
+            "pages/exemplos_praticos/exemplo_6_recursividade"
           ]
         }
       ]
@@ -123,21 +123,14 @@
         "icon": "heart",
         "description": "como_contribuir, licenca e sobre",
         "pages": [
-          "docs/como_contribuir",
-          "docs/licenca",
-          "docs/sobre"
-        ]
-        
-      },
-       {
-        "dropdown": "Compilador online LiPo",
-        "icon": "computer",
-        "description": "Site compilador online LiPo",
-        "pages": [
-        "https://editor.lipolang.dev"
+          "pages/importante/como_contribuir",
+          "pages/importante/licenca",
+          "pages/importante/sobre"
         ]
         
       }
+        
+
     ]
   },
      
@@ -148,7 +141,7 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Editor LiPoLang",
+      "label": "Editor LiPoLang Online",
       "href": "https://editor.lipolang.dev"
     }
   },
