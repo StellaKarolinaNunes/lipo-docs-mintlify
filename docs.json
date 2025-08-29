@@ -1,15 +1,15 @@
 {
+
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "LiPo AI Docs",
   "colors": {
-    "primary": "#0d47a1",
-    "light": "#0277bd",
-    "dark": "#1a2b3a"
+    "primary": "#1966ad",
+    "light": "#2d8ad4",
+    "dark": "#0e4173"
   },
   "favicon": "./lipo.svg",
-  "css": ["./style.css"],
-  "js": ["./vlibras.js"],
+ 
   
  "navigation": {
   "dropdowns": [
@@ -39,8 +39,8 @@
         {
           "group": "Variáveis e Constantes",
           "pages": [
-            "pages/variaveis_constantes/declaração_de_Variáveis",
-            "pages/variaveis_constantes/declaração_de_Constantes"
+            "pages/variaveis_constantes/declaração_de_variaveis",
+            "pages/variaveis_constantes/declaração_de_constantes"
           ]
         },
         {
