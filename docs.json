@@ -22,8 +22,9 @@
           "group": "Comece agora mesmo",
           "pages": [
             "pages/index",
-            "pages/inicio",
-            "pages/desenvolvimento"
+            "pages/inicio_rapido",
+            "pages/instalacao",
+            "pages/editor_online"
           ]
         },
         {
