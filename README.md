@@ -18,50 +18,50 @@
 
 ##  Introdução
 
-**LIPO** (*Linguagem em Portugol*) é uma linguagem de programação educacional desenvolvida com foco no ensino de lógica e fundamentos da programação. Utiliza palavras-chave em português brasileiro, tornando-se mais acessível e intuitiva para falantes nativos.
+**LIPO** (*Linguagem em Portugol*)  é uma linguagem de programação educacional que utiliza palavras-chave em português, projetada para ensinar lógica e conceitos de programação de forma clara e acessível. Esta documentação tem como objetivo fornecer orientações detalhadas sobre a sintaxe, comandos, estruturas e recursos do LIPO, servindo como referência oficial para estudantes e educadores que utilizam a linguagem em seus estudos e projetos.
 
 ## Documentação
 
-Para acessar a documentação completa da LiPo e aprender como usar a linguagem, visite:  
-[Documentação LiPo](https://teste-94e5b8ab.mintlify.app)
+Para acessar a documentação completa da LiPo e aprender como usar a linguagem, visite:  [Documentação LiPo](https://docs.lipolang.dev/pages)
+
+<br>
+
+## Por que Documentação LIPO?
 
 
-### Por que LIPO?
-
-- **Sintaxe em Português** - Aproxima o código da língua natural
-- **Educacional** - Focada no aprendizado de programação
-- **Tipagem Estática** - Maior segurança e detecção de erros
-- **Inferência de Tipos** - Menos declarações explícitas necessárias
+- A **Documentação LIPO** existe para servir como guia completo e confiável para quem utiliza a linguagem. Ela centraliza informações sobre sintaxe, comandos, estruturas de controle e boas práticas, ajudando estudantes e educadores a entenderem e aplicarem o LIPO de forma correta e eficiente, sem a necessidade de buscar informações dispersas ou em fontes externas. 
+ 
 
 <br>
 
 ## Funcionalidades
 
-###  Principais Características
+###  Principais Características da Documentação LIPO
 
-- **Sintaxe em Português Brasileiro** - Todas as palavras-chave utilizam português, facilitando o aprendizado
-- **Tipagem Estática** - Verificação de tipos em tempo de compilação para maior segurança
-- **Inferência de Tipos** - O compilador deduz automaticamente os tipos das variáveis
-- **Conversão Automática** - Conversão inteligente entre tipos numéricos
-- **Ambiente Web** - Execute diretamente no navegador
-- **Debugger Integrado** - Ferramentas de depuração avançadas
-
-###  Ferramentas Incluídas
-
-- Compilador completo
-- Máquina virtual
-- Debugger interativo
-- Extensão para VS Code
-- Interface web para testes
+- **Linguagem em Português:** Utiliza palavras-chave em português, facilitando o aprendizado e a compreensão.
+- **Guia Completo:** Explica sintaxe, comandos, estruturas de controle e funções da linguagem.
+- **Exemplos Práticos:** Apresenta exemplos que ajudam a entender a aplicação dos conceitos.
+- **Foco Educacional:** Voltada para estudantes e professores, reforçando a lógica de programação.
 
 <br>
 
 ##  Instalação
 
-### Pré-requisitos
+### Pré-requisitos para Rodar a Documentação LIPO na sua maquina ( Mintlify )
 
-- **Dart SDK** 3.8.1 ou superior
-- **Git** para clonagem do repositório
+- **Navegador Atualizado:**  Chrome, Firefox, Edge ou outro navegador moderno. 
+- **Conexão com a Internet:** Para carregar conteúdos e exemplos online.
+-  **Conta Mintlify (opcional):** Apenas se quiser editar, colaborar ou gerar novas versões da documentação.
+-  **Editor de Texto (opcional):** Caso queira baixar ou modificar arquivos .md ou .mdx.
+-  **Conhecimento Básico de Markdown:** Para entender a estrutura de textos, títulos, listas e links dentro da documentação.
+-  **Node.js (versão LTS)** instalado na máquina.
+-  **Git instalado**
+
+> **Observação:**
+>  * Não é necessário instalar nenhum software adicional, pois a documentação é totalmente web-based.
+>  * Não é obrigatório criar conta no Mintlify se você só quer rodar a doc localmente. Conta é necessária apenas para editar ou publicar no site deles.
+
+<br>
 
 ###  Instalação Rápida
 
@@ -69,83 +69,37 @@ Para acessar a documentação completa da LiPo e aprender como usar a linguagem,
 
 ```bash
 
-git clone https://github.com/karlaycosta/minidart_compiler
+git clone https://github.com/StellaKarolinaNunes/mintlify-docs
 ```
 
 ####  2. Clone repositorio 
 
 ```bash
-cd minidart_compiler
+cd mintlify-docs
 ```
 
-####  3. Instale as dependências
+####  3. Entre pasta Documentação
 
 ```bash
-dart pub get
+Cd docs
 ```
 
-#### 4. Execute o compilador
+#### 4. Instale dependências:
 
 ```bash
-flutter run -d chrome
+npm install
 ```
 
-#### Versão Web
+#### 5. Rode o servidor local:
 
 ```bash
-# Para executar a versão web
-cd web
-dart run server.dart
-
+npm run dev
 ```
 
----
-
-##  Como Usar
-
-### 1. Criando seu primeiro programa
-
-Crie um arquivo com extensão `.mdart`:
+#### 6. Abra o navegador e acesse:
 
 ```bash
-// exemplo.mdart
-var nome = "Mundo";
-var numero = 42;
-
-se (numero > 10) {
-    imprimir "Número grande: ";
-    imprimir numero;
-} senao {
-    imprimir "Número pequeno";
-}
-
-imprimir "Olá, ";
-imprimir nome;
-```
-
-### 2. Compilando e executando
-
-```bash
-# Execução básica
-dart run bin/compile.dart exemplo.mdart
-
-# Ver apenas a árvore sintática
-dart run bin/compile.dart exemplo.mdart --ast-only
-
-# Ver bytecode gerado
-dart run bin/compile.dart exemplo.mdart --bytecode
-
-# Verificar versão
-
-```bash
-dart run bin/compile.dart --version
-```
-
-### 3. Saída esperada
-
-```bash
-Número grande: 42
-Olá, Mundo
+http://localhost:porta
 ```
 
 ---
@@ -186,7 +140,7 @@ mantendo a referência ao repositório original.
 
 ## Equipe
 
-### Desenvolvimento Principal
+### Desenvolvimento Principal da Documentação/Professor Orientador
 
 <table>
   <tr>
@@ -196,7 +150,6 @@ mantendo a referência ao repositório original.
         <br />
         <sub><b>Karlay Costa</b></sub>
         <br />
-        <sub>Desenvolvedor Principal</sub>
       </a>
     </td>
   </tr>
@@ -204,36 +157,15 @@ mantendo a referência ao repositório original.
 
 ### Colaboradores
 
-Agradecemos a todas as pessoas que contribuíram para este projeto:
+Agradecemos a todas as pessoas que contribuíram para este projeto Documentação:
 
 <table>
   <tr>
-    <td align="center">
-      <a href="https://github.com/AlineCely">
-        <img src="https://github.com/AlineCely.png" width="80px" alt="Aline Cely"/>
-        <br />
-        <sub><b>Aline Cely</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/filipepak">
-        <img src="https://github.com/filipepak.png" width="80px" alt="Filipe"/>
-        <br />
-        <sub><b>Filipe</b></sub>
-      </a>
-    </td>
     <td align="center">
       <a href="https://github.com/Gab0701">
         <img src="https://github.com/Gab0701.png" width="80px" alt="João Gabriel"/>
         <br />
         <sub><b>João Gabriel</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/JoaoPedroCavalcante">
-        <img src="https://github.com/JoaoPedroCavalcante.png" width="80px" alt="João Pedro"/>
-        <br />
-        <sub><b>João Pedro</b></sub>
       </a>
     </td>
     <td align="center">
@@ -243,8 +175,6 @@ Agradecemos a todas as pessoas que contribuíram para este projeto:
         <sub><b>Jhonefer Vinicius</b></sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/Igormachado90">
         <img src="https://github.com/Igormachado90.png" width="80px" alt="Igor Machado"/>
@@ -260,33 +190,10 @@ Agradecemos a todas as pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/JKLModesto">
-        <img src="https://github.com/JKLModesto.png" width="80px" alt="Pedro Modesto"/>
-        <br />
-        <sub><b>Pedro Modesto</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/LeoGuile">
-        <img src="https://github.com/LeoGuile.png" width="80px" alt="Leo Guile"/>
-        <br />
-        <sub><b>Leo Guile</b></sub>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/Luitinho147">
         <img src="https://github.com/Luitinho147.png" width="80px" alt="Luiz"/>
         <br />
         <sub><b>Luiz</b></sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/NoanMoreira">
-        <img src="https://github.com/NoanMoreira.png" width="80px" alt="Noan Moreira"/>
-        <br />
-        <sub><b>Noan Moreira</b></sub>
       </a>
     </td>
     <td align="center">
@@ -296,29 +203,9 @@ Agradecemos a todas as pessoas que contribuíram para este projeto:
         <sub><b>Stella Karolina</b></sub>
       </a>
     </td>
-    <td align="center">
-      <a href="https://github.com/thaissoliveira">
-        <img src="https://github.com/thaissoliveira.png" width="80px" alt="Thais Oliveira"/>
-        <br />
-        <sub><b>Thais Oliveira</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Vitoralmeidaf">
-        <img src="https://github.com/Vitoralmeidaf.png" width="80px" alt="Vitor Almeida"/>
-        <br />
-        <sub><b>Vitor Almeida</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/vitormezz">
-        <img src="https://github.com/vitormezz.png" width="80px" alt="Vitor Mezzomo"/>
-        <br />
-        <sub><b>Vitor Mezzomo</b></sub>
-      </a>
-    </td>
   </tr>
 </table>
+
 
 ---
 
