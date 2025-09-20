@@ -4,9 +4,10 @@
     <br />
     <br />
     <a href="https://docs.lipolang.dev/pages">
-     <img src="https://github.com/user-attachments/assets/d9dca834-0465-489a-a182-4d7f3ac76564" alt="LiPo" height="400">
+     <img src="https://github.com/user-attachments/assets/dd2fc824-4dcf-4205-a605-b50416f45e38" alt="LiPo" height="400">
     </a>
-  </h1>
+  </h1 >
+
 </div>
 
 <p align="center">
