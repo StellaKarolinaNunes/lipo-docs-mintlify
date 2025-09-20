@@ -9,9 +9,9 @@
     "dark": "#0e4173"
   },
   "favicon": "./lipo.svg",
- 
   
  "navigation": {
+ 
   "dropdowns": [
     {
       "dropdown": "Documentação",
@@ -134,6 +134,7 @@
 
     ]
   },
+ 
      
   "logo": {
     "light": "/logo/light.svg",
@@ -167,4 +168,6 @@
       }
     ]
   }
-}
+ 
+} 
+
