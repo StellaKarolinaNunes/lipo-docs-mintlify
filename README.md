@@ -24,20 +24,19 @@
   <a href="https://github.com/StellaKarolinaNunes/lipo-docs-mintlify/blob/main/LICENSE"><img src="https://img.shields.io/github/license/StellaKarolinaNunes/lipo-docs-mintlify?style=flat" alt="Licença"></a>
 </p>
 
-##  Introdução
+<br>
 
+##  Introdução
 **LIPO** (*Linguagem em Portugol*)  é uma linguagem de programação educacional que utiliza palavras-chave em português, projetada para ensinar lógica e conceitos de programação de forma clara e acessível. Esta documentação tem como objetivo fornecer orientações detalhadas sobre a sintaxe, comandos, estruturas e recursos do LIPO, servindo como referência oficial para estudantes e educadores que utilizam a linguagem em seus estudos e projetos.
 
 <br>
 
 ## Por que Documentação LIPO?
-
 A **Documentação LIPO** existe para servir como guia completo e confiável para quem utiliza a linguagem. Ela centraliza informações sobre sintaxe, comandos, estruturas de controle e boas práticas, ajudando estudantes e educadores a entenderem e aplicarem o LIPO de forma correta e eficiente, sem a necessidade de buscar informações dispersas ou em fontes externas. 
 
 <br>
 
 ## Como acessar
-
 Você pode acessar a documentação online em:  [Documentação do Lipo](https://docs.lipolang.dev/pages)
 
 <br>
@@ -45,7 +44,6 @@ Você pode acessar a documentação online em:  [Documentação do Lipo](https:/
 ## Funcionalidades
 
 ###  Principais Características da Documentação LIPO
-
 - **Linguagem em Português:** Utiliza palavras-chave em português, facilitando o aprendizado e a compreensão.
 - **Guia Completo:** Explica sintaxe, comandos, estruturas de controle e funções da linguagem.
 - **Exemplos Práticos:** Apresenta exemplos que ajudam a entender a aplicação dos conceitos.
@@ -57,15 +55,14 @@ Você pode acessar a documentação online em:  [Documentação do Lipo](https:/
 ##  Instalação
 
 ### Pré-requisitos para Rodar a Documentação LIPO na sua maquina ( Mintlify )
-
-- **Navegador Atualizado:**  Chrome, Firefox, Edge ou outro navegador moderno. 
+- **Navegador Atualizado:**  [Chrome](https://www.google.com/intl/pt-BR/chrome/), [Firefox](https://www.firefox.com/pt-BR/download/all/), [Edge](https://www.microsoft.com/pt-br/edge/download?form=MA13FJ) ou outro navegador moderno. 
 - **Conexão com a Internet:** Para carregar conteúdos e exemplos online.
--  **Conta Mintlify (opcional):** Apenas se quiser editar, colaborar ou gerar novas versões da documentação.
--  **Editor de Texto (opcional):** Caso queira baixar ou modificar arquivos .md ou .mdx.
--  **Conhecimento Básico de Markdown:** Para entender a estrutura de textos, títulos, listas e links dentro da documentação.
--  **][Git instalado](https://git-scm.com/downloads)**
+-  **[Conta Mintlify](https://www.mintlify.com) (opcional):** Apenas se quiser editar, colaborar ou gerar novas versões da documentação.
+-  **Editor de Texto (opcional):** você pode utilizar: [Visual Studio ](https://code.visualstudio.com/download),[Sublime Text](https://www.sublimetext.com/3),[notepad++](https://notepad-plus-plus.org/downloads/) ou Qualquer outro editor de texto de sua preferência (Nano, Vim, etc.).
+ -  **Conhecimento Básico de Markdown:** Para entender a estrutura de textos, títulos, listas e links dentro da documentação.
+-  **[Git instalado](https://git-scm.com/downloads)**
 -  **[Documentação Mitntlify](https://www.mintlify.com/docs)** Para qalquer duvida da instalação
--  **[Node.js (versão LTS)]**(https://nodejs.org/pt) instalado na máquina.
+-  **[Node.js (versão LTS)](https://nodejs.org/pt)** instalado na máquina.
 
 > **Observação:**
 >  * Não é necessário instalar nenhum software adicional, pois a documentação é totalmente web-based.
@@ -74,8 +71,6 @@ Você pode acessar a documentação online em:  [Documentação do Lipo](https:/
 <br>
 
 ### Tecnologias utilizadas
-
-- **Portugol** – linguagem de programação didática
 - **Markdown** – para criação dos arquivos de documentação
 - **Mintlify** – para transformar os arquivos Markdown em documentação online
 - **HTML/CSS/JS** – para estilização personalizada da documentação
@@ -97,25 +92,19 @@ git clone https://github.com/StellaKarolinaNunes/mintlify-docs
 cd mintlify-docs
 ```
 
-####  3. Entre pasta Documentação
-
-```bash
-Cd docs
-```
-
-#### 4. Instale dependências:
+####  3. Instale dependências:
 
 ```bash
 npm install
 ```
 
-#### 5. Rode o servidor local:
+#### 4. Rode o servidor local:
 
 ```bash
 npm run dev
 ```
 
-#### 6. Abra o navegador e acesse:
+#### 5. Abra o navegador e acesse:
 
 ```bash
 http://localhost:porta
@@ -126,13 +115,11 @@ http://localhost:porta
 <br>
 
 ##  Contribuição
-
 Contribuições são muito bem-vindas! Siga estes passos:
 
 <br>
 
 ### Como Contribuir
-
 1. **Fork** este repositório
 2. **Clone** seu fork localmente
 3. **Crie** uma branch para sua feature: `git checkout -b feature/nova-funcionalidade`
