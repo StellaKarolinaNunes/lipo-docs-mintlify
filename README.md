@@ -1,6 +1,6 @@
  
   <h1 align="center">
-      LiPo
+       Documentação LiPo
     <br />
     <br />
     <a href="https://docs.lipolang.dev/pages">
