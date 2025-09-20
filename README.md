@@ -197,6 +197,13 @@ Agradecemos a todas as pessoas que contribuíram para este projeto Documentaçã
         <sub><b>Ítalo Assunção</b></sub>
       </a>
     </td>
+     <td align="center">
+      <a href="https://github.com/NoanMoreira">
+        <img src="https://github.com/NoanMoreira.png" width="80px" alt="Stella Karolina"/>
+        <br />
+        <sub><b>Noan Moreira</b></sub>
+      </a>
+    </td>
     <td align="center">
       <a href="https://github.com/Luitinho147">
         <img src="https://github.com/Luitinho147.png" width="80px" alt="Luiz"/>
@@ -213,6 +220,9 @@ Agradecemos a todas as pessoas que contribuíram para este projeto Documentaçã
     </td>
   </tr>
 </table>
+
+
+
 
 <br>
 
