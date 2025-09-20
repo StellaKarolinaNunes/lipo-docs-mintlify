@@ -32,7 +32,7 @@
 
 ## Por que Documentação LIPO?
 
-- A **Documentação LIPO** existe para servir como guia completo e confiável para quem utiliza a linguagem. Ela centraliza informações sobre sintaxe, comandos, estruturas de controle e boas práticas, ajudando estudantes e educadores a entenderem e aplicarem o LIPO de forma correta e eficiente, sem a necessidade de buscar informações dispersas ou em fontes externas. 
+A **Documentação LIPO** existe para servir como guia completo e confiável para quem utiliza a linguagem. Ela centraliza informações sobre sintaxe, comandos, estruturas de controle e boas práticas, ajudando estudantes e educadores a entenderem e aplicarem o LIPO de forma correta e eficiente, sem a necessidade de buscar informações dispersas ou em fontes externas. 
 
 <br>
 
