@@ -221,7 +221,7 @@ Agradecemos a todas as pessoas que contribuíram para este projeto Documentaçã
 ---
 
 <p align="center">
-  <strong>Feito com ❤️ pela comunidade LIPO</strong>
+  <strong>Feito com carinho pela comunidade LIPO - T383-8TA </strong>
   <br />
   <sub>Ajudando a democratizar o ensino de programação em português</sub>
 </p>
