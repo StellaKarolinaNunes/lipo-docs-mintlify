@@ -56,7 +56,7 @@ Você pode acessar a documentação online em:  [Documentação do Lipo](https:/
 -  **Conhecimento Básico de Markdown:** Para entender a estrutura de textos, títulos, listas e links dentro da documentação.
 -  **][Git instalado](https://git-scm.com/downloads)**
 -  **[Documentação Mitntlify](https://www.mintlify.com/docs)** Para qalquer duvida da instalação
--  **[Node.js (versão LTS)](https://nodejs.org/pt) instalado na máquina.
+-  **[Node.js (versão LTS)]**(https://nodejs.org/pt) instalado na máquina.
 
 > **Observação:**
 >  * Não é necessário instalar nenhum software adicional, pois a documentação é totalmente web-based.
