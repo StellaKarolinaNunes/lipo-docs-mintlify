@@ -117,8 +117,6 @@ http://localhost:porta
 ##  Contribuição
 Contribuições são muito bem-vindas! Siga estes passos:
 
-<br>
-
 ### Como Contribuir
 1. **Fork** este repositório
 2. **Clone** seu fork localmente
@@ -151,7 +149,7 @@ mantendo a referência ao repositório original.
 
 ## Equipe
 
-### Desenvolvimento Principal da Documentação/Professor Orientador
+#### Desenvolvimento Principal da Documentação/Professor Orientador
 
 <table>
   <tr>
@@ -166,10 +164,7 @@ mantendo a referência ao repositório original.
   </tr>
 </table>
 
-<br>
-
-### Colaboradores
-
+#### Colaboradores
 Agradecemos a todas as pessoas que contribuíram para este projeto Documentação:
 
 <table>
@@ -220,7 +215,6 @@ Agradecemos a todas as pessoas que contribuíram para este projeto Documentaçã
 </table>
 
 <br>
----
 
 <p align="center">
   <strong>Feito com carinho pela comunidade LIPO - Alunos de Ciência da computação - T383-8TA </strong>
