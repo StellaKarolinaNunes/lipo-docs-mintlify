@@ -1,31 +1,40 @@
-<p align="center">
-
  
-  <img src="https://i.imgur.com/bm3W4n9.png" alt="LIPO Logo" width="200" />
-</p>
-
-<h1 align="center">LIPO</h1>
-<p align="center"><strong>Documentação Linguagem em Portugol</strong></p>
-<p align="center">Uma linguagem de programação educacional em português brasileiro</p>
+  <h1 align="center">
+    Documentação LiPo
+    <br />
+    <br />
+    <a href="https://docs.lipolang.dev/pages">
+     <img src="https://github.com/user-attachments/assets/d9dca834-0465-489a-a182-4d7f3ac76564" alt="LiPo" height="400">
+    </a>
+  </h1>
+</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Dart-3.8.1+-blue.svg" alt="Dart Version" />
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status" />
+  <a href="#"><img src="https://img.shields.io/badge/Português-f89d00?style=flat" alt="Portugol"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Markdown-000000?style=flat" alt="Markdown"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Mintlify-00C09B?style=flat" alt="Mintlify"></a>
+  <a href="#"><img src="https://img.shields.io/badge/HTML/CSS/JS-E34F26?style=flat" alt="HTML/CSS/JS"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=flat" alt="Node.js"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Chrome-4285F4?style=flat" alt="Chrome"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Firefox-FF7139?style=flat" alt="Firefox"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Edge-0078D7?style=flat" alt="Edge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Git-F05032?style=flat" alt="Git"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Internet-0078D7?style=flat" alt="Internet"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Editor_de_Texto-0078D7?style=flat" alt="Editor de Texto"></a>
+  <a href="https://github.com/StellaKarolinaNunes/lipo-docs-mintlify/blob/main/LICENSE"><img src="https://img.shields.io/github/license/StellaKarolinaNunes/lipo-docs-mintlify?style=flat" alt="Licença"></a>
 </p>
-
----
 
 ##  Introdução
 
 **LIPO** (*Linguagem em Portugol*)  é uma linguagem de programação educacional que utiliza palavras-chave em português, projetada para ensinar lógica e conceitos de programação de forma clara e acessível. Esta documentação tem como objetivo fornecer orientações detalhadas sobre a sintaxe, comandos, estruturas e recursos do LIPO, servindo como referência oficial para estudantes e educadores que utilizam a linguagem em seus estudos e projetos.
 
- 
+<br>
 
 ## Por que Documentação LIPO?
 
-
 - A **Documentação LIPO** existe para servir como guia completo e confiável para quem utiliza a linguagem. Ela centraliza informações sobre sintaxe, comandos, estruturas de controle e boas práticas, ajudando estudantes e educadores a entenderem e aplicarem o LIPO de forma correta e eficiente, sem a necessidade de buscar informações dispersas ou em fontes externas. 
+
+<br>
 
 ## Como acessar
 
@@ -71,6 +80,8 @@ Você pode acessar a documentação online em:  [Documentação do Lipo](https:/
 - **Mintlify** – para transformar os arquivos Markdown em documentação online
 - **HTML/CSS/JS** – para estilização personalizada da documentação
 
+<br>
+
 ###  Instalação Rápida
 
 ####  1. Clone o repositório
@@ -109,15 +120,16 @@ npm run dev
 ```bash
 http://localhost:porta
 ```
-<BR>
 
 >**PARA MAIS DUVIDAS ACESSE: [PASSO A PASSO DA INSTALAÇÃO DO SITE DA MINTLIFY](https://www.mintlify.com/docs/installation)**
 
----
+<br>
 
 ##  Contribuição
 
 Contribuições são muito bem-vindas! Siga estes passos:
+
+<br>
 
 ### Como Contribuir
 
@@ -128,6 +140,8 @@ Contribuições são muito bem-vindas! Siga estes passos:
 5. **Teste** suas modificações
 6. **Abra** um Pull Request detalhado
 
+<br>
+
 ###  Diretrizes
 
 - Código limpo e bem comentado
@@ -136,7 +150,7 @@ Contribuições são muito bem-vindas! Siga estes passos:
 - Mantenha a documentação atualizada
 - Siga os padrões de código existentes
 
----
+<br>
 
 ##  Licença
 
@@ -146,8 +160,7 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 MIT License - você pode usar, modificar e distribuir livremente,
 mantendo a referência ao repositório original.
 ```
-
----
+<br>
 
 ## Equipe
 
@@ -165,6 +178,8 @@ mantendo a referência ao repositório original.
     </td>
   </tr>
 </table>
+
+<br>
 
 ### Colaboradores
 
@@ -217,11 +232,11 @@ Agradecemos a todas as pessoas que contribuíram para este projeto Documentaçã
   </tr>
 </table>
 
-
+<br>
 ---
 
 <p align="center">
-  <strong>Feito com carinho pela comunidade LIPO - T383-8TA </strong>
+  <strong>Feito com carinho pela comunidade LIPO - Alunos de Ciência da computação - T383-8TA </strong>
   <br />
   <sub>Ajudando a democratizar o ensino de programação em português</sub>
 </p>
