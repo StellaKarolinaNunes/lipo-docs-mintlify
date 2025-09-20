@@ -10,19 +10,20 @@
 </div>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Português-f89d00?style=flat" alt="Portugol"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Markdown-000000?style=flat" alt="Markdown"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Mintlify-00C09B?style=flat" alt="Mintlify"></a>
-  <a href="#"><img src="https://img.shields.io/badge/HTML/CSS/JS-E34F26?style=flat" alt="HTML/CSS/JS"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=flat" alt="Node.js"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Chrome-4285F4?style=flat" alt="Chrome"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Firefox-FF7139?style=flat" alt="Firefox"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Edge-0078D7?style=flat" alt="Edge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Git-F05032?style=flat" alt="Git"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Internet-0078D7?style=flat" alt="Internet"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Editor_de_Texto-0078D7?style=flat" alt="Editor de Texto"></a>
-  <a href="https://github.com/StellaKarolinaNunes/lipo-docs-mintlify/blob/main/LICENSE"><img src="https://img.shields.io/github/license/StellaKarolinaNunes/lipo-docs-mintlify?style=flat" alt="Licença"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Português-f89d00?style=flat&logo=google-translate&logoColor=white" alt="Portugol"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown" alt="Markdown"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Mintlify-00C09B?style=flat&logo=mintlify&logoColor=white" alt="Mintlify"></a>
+  <a href="#"><img src="https://img.shields.io/badge/HTML/CSS/JS-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML/CSS/JS"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Chrome-4285F4?style=flat&logo=googlechrome&logoColor=white" alt="Chrome"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Firefox-FF7139?style=flat&logo=firefox&logoColor=white" alt="Firefox"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Edge-0078D7?style=flat&logo=microsoftedge&logoColor=white" alt="Edge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Internet-0078D7?style=flat&logo=internetexplorer&logoColor=white" alt="Internet"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Editor_de_Texto-0078D7?style=flat&logo=visualstudiocode&logoColor=white" alt="Editor de Texto"></a>
+  <a href="https://github.com/StellaKarolinaNunes/lipo-docs-mintlify/blob/main/LICENSE"><img src="https://img.shields.io/github/license/StellaKarolinaNunes/lipo-docs-mintlify?style=flat&logo=open-source-initiative&logoColor=white" alt="Licença"></a>
 </p>
+
 
 <br>
 
