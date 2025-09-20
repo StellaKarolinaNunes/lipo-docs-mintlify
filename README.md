@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">LIPO</h1>
-<p align="center"><strong>Linguagem em Portugol</strong></p>
+<p align="center"><strong>Documentação Linguagem em Portugol</strong></p>
 <p align="center">Uma linguagem de programação educacional em português brasileiro</p>
 
 <p align="center">
@@ -20,17 +20,16 @@
 
 **LIPO** (*Linguagem em Portugol*)  é uma linguagem de programação educacional que utiliza palavras-chave em português, projetada para ensinar lógica e conceitos de programação de forma clara e acessível. Esta documentação tem como objetivo fornecer orientações detalhadas sobre a sintaxe, comandos, estruturas e recursos do LIPO, servindo como referência oficial para estudantes e educadores que utilizam a linguagem em seus estudos e projetos.
 
-## Documentação
-
-Para acessar a documentação completa da LiPo e aprender como usar a linguagem, visite:  [Documentação LiPo](https://docs.lipolang.dev/pages)
-
-<br>
+ 
 
 ## Por que Documentação LIPO?
 
 
 - A **Documentação LIPO** existe para servir como guia completo e confiável para quem utiliza a linguagem. Ela centraliza informações sobre sintaxe, comandos, estruturas de controle e boas práticas, ajudando estudantes e educadores a entenderem e aplicarem o LIPO de forma correta e eficiente, sem a necessidade de buscar informações dispersas ou em fontes externas. 
- 
+
+## Como acessar
+
+Você pode acessar a documentação online em:  [Documentação do Lipo](https://docs.lipolang.dev/pages)
 
 <br>
 
@@ -42,6 +41,7 @@ Para acessar a documentação completa da LiPo e aprender como usar a linguagem,
 - **Guia Completo:** Explica sintaxe, comandos, estruturas de controle e funções da linguagem.
 - **Exemplos Práticos:** Apresenta exemplos que ajudam a entender a aplicação dos conceitos.
 - **Foco Educacional:** Voltada para estudantes e professores, reforçando a lógica de programação.
+- **Recursos de pesquisa rápida e navegação fácil**
 
 <br>
 
@@ -54,14 +54,22 @@ Para acessar a documentação completa da LiPo e aprender como usar a linguagem,
 -  **Conta Mintlify (opcional):** Apenas se quiser editar, colaborar ou gerar novas versões da documentação.
 -  **Editor de Texto (opcional):** Caso queira baixar ou modificar arquivos .md ou .mdx.
 -  **Conhecimento Básico de Markdown:** Para entender a estrutura de textos, títulos, listas e links dentro da documentação.
--  **Node.js (versão LTS)** instalado na máquina.
--  **Git instalado**
+-  **][Git instalado](https://git-scm.com/downloads)**
+-  **[Documentação Mitntlify](https://www.mintlify.com/docs)** Para qalquer duvida da instalação
+-  **[Node.js (versão LTS)](https://nodejs.org/pt) instalado na máquina.
 
 > **Observação:**
 >  * Não é necessário instalar nenhum software adicional, pois a documentação é totalmente web-based.
 >  * Não é obrigatório criar conta no Mintlify se você só quer rodar a doc localmente. Conta é necessária apenas para editar ou publicar no site deles.
 
 <br>
+
+### Tecnologias utilizadas
+
+- **Portugol** – linguagem de programação didática
+- **Markdown** – para criação dos arquivos de documentação
+- **Mintlify** – para transformar os arquivos Markdown em documentação online
+- **HTML/CSS/JS** – para estilização personalizada da documentação
 
 ###  Instalação Rápida
 
@@ -101,6 +109,9 @@ npm run dev
 ```bash
 http://localhost:porta
 ```
+<BR>
+
+>**PARA MAIS DUVIDAS ACESSE: [PASSO A PASSO DA INSTALAÇÃO DO SITE DA MINTLIFY](https://www.mintlify.com/docs/installation)**
 
 ---
 
