@@ -81,6 +81,8 @@ Você pode acessar a documentação online em:  [Documentação do Lipo](https:/
 
 ###  Instalação Rápida
 
+>  **Pré-requisito:** Por favor instale **[Node.js](https://nodejs.org/en/download)** antes de prosseguir.
+
 ####  1. Clone o repositório
 
 ```bash
@@ -94,16 +96,18 @@ git clone https://github.com/StellaKarolinaNunes/mintlify-docs
 cd mintlify-docs
 ```
 
-####  3. Instale dependências:
+####  3. Instale  a CLI.:
 
 ```bash
-npm install
+npm i -g mint
 ```
+
+> **Alternativamente, se você não quiser instalar a CLI globalmente**, você pode executar um script único: ```npx mint dev```
 
 #### 4. Rode o servidor local:
 
 ```bash
-npm run dev
+mint dev
 ```
 
 #### 5. Abra o navegador e acesse:
