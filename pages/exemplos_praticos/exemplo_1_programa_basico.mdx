@@ -1,23 +1,33 @@
 ---
-title: "Exemplo Programa basico "
-description: "Programa basico."
+title: "Exemplo: Programa Básico"
+description: "Um programa simples para demonstração das operações básicas no LiPo."
 ---
 
+Neste exemplo, veremos como declarar variáveis, atribuir valores e realizar operações aritméticas básicas na linguagem **LiPo**.
 
-```javascript
+```lipo
 // Definindo as variáveis
-var a = 10;
-var b = 5;
+inteiro a := 10;
+inteiro b := 5;
 
 // Soma: adiciona 'a' e 'b'
-console.log("Soma: " + (a + b)); // Resultado: 15
+imprima "Soma: " + (a + b); // Resultado: 15
 
 // Subtração: subtrai 'b' de 'a'
-console.log("Subtração: " + (a - b)); // Resultado: 5
+imprima "Subtração: " + (a - b); // Resultado: 5
 
 // Multiplicação: multiplica 'a' por 'b'
-console.log("Multiplicação: " + (a * b)); // Resultado: 50
+imprima "Multiplicação: " + (a * b); // Resultado: 50
 
 // Divisão: divide 'a' por 'b'
-console.log("Divisão: " + (a / b)); // Resultado: 2
+imprima "Divisão: " + (a / b); // Resultado: 2
 ```
+
+---
+
+### O que este código faz?
+
+1.  **Declaração de variáveis**: Usamos `inteiro` para definir que os espaços de memória `a` e `b` armazenarão números sem casas decimais.
+2.  **Atribuição**: O operador `:=` (ou `=` dependendo da versão) é usado para atribuir valores às variáveis.
+3.  **Saída de Dados**: O comando `imprima` envia o resultado para o console. 
+4.  **Operações**: Realizamos as quatro operações matemáticas fundamentais de forma intuitiva.

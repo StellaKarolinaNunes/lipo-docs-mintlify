@@ -1,20 +1,49 @@
 ---
-title:"Início Rápido"
-description:"comece a codificar  em minutos"
+title: "Início Rápido"
+description: "Comece a codificar em minutos"
 ---
 
+Este guia de início rápido mostra como configurar e implementar o compilador LiPo em minutos.
 
-Este guia de início rápido mostra como configurar e implementar o compilador LiPo  em minutos.
-
-Após concluir este guia, você terá um compilador portugol  ativo pronto para codificar.
+Após concluir este guia, você terá um compilador portugol ativo pronto para codificar.
 
 <Info>
-  **Prerequisites**: 
-  * Dart SDK 3.8.1 ou superior
+  **Pré-requisitos**: 
+  * Dart SDK 3.8.1 ou superior (opcional para desenvolvimento do compilador)
+  * Node.js (recomendado para instalação via npm)
   * Git para clonagem do repositório
 </Info>
 
 ## Primeiros passos
 
-Após concluir o processo de clonagem e executar projeto 
+Para começar a usar o LiPo, você pode instalar o compilador globalmente via npm:
 
+```bash
+npm install -g lipo-compiler
+```
+
+Ou clonar o repositório oficial:
+
+```bash
+git clone https://github.com/karlaycosta/lipo_compiler.git
+cd lipo_compiler
+dart pub get
+```
+
+### Criando seu primeiro programa
+
+Crie um arquivo chamado `ola.lip` com o seguinte conteúdo:
+
+```lipo
+imprima "Olá, Mundo!";
+```
+
+### Executando
+
+No terminal, execute o comando:
+
+```bash
+lipo execute ola.lip
+```
+
+<Tip>Você também pode usar o [Editor Online](https://editor.lipolang.dev) para testar o LiPo sem instalar nada.</Tip>

@@ -1,0 +1,82 @@
+---
+title: "Instalação"
+description: "Guia de instalação do compilador LiPo"
+---
+
+O compilador **LiPo** pode ser instalado de duas formas principais: via gerenciador de pacotes **npm** ou clonando o código-fonte do repositório oficial no **GitHub**.
+
+## Instalação via NPM (Recomendado)
+
+Esta é a maneira mais simples e rápida de começar a usar o LiPo no seu ambiente local.
+
+### Pré-requisitos
+*   [Node.js](https://nodejs.org/) instalado.
+
+### Passo a passo
+
+1.  Abra o seu terminal.
+2.  Execute o comando abaixo para instalar o compilador globalmente:
+
+```bash
+npm install -g lipo-compiler
+```
+
+3. Verifique se a instalação foi bem-sucedida executando:
+
+```bash
+lipo --version
+```
+
+---
+
+## Compilando a partir do Fonte
+
+Se você deseja contribuir para o desenvolvimento ou prefere rodar a versão mais recente diretamente do repositório:
+
+### Pré-requisitos
+*   [Dart SDK](https://dart.dev/get-dart) instalado.
+*   [Git](https://git-scm.com/) instalado.
+
+### Passo a passo
+
+1. Clone o repositório oficial:
+
+```bash
+git clone https://github.com/karlaycosta/lipo_compiler.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd lipo_compiler
+```
+
+3. Instale as dependências do Dart:
+
+```bash
+dart pub get
+```
+
+4. Para rodar o compilador a partir do código-fonte:
+
+```bash
+dart bin/main.dart execute seu_arquivo.lip
+```
+
+---
+
+## Extensão para o VS Code
+
+Para uma melhor experiência de desenvolvimento, recomendamos a instalação da extensão oficial do **LiPo** no Visual Studio Code.
+
+*   **Destaque de sintaxe**: Realce colorido para facilitar a leitura.
+*   **Snippets**: Atalhos inteligentes para comandos como `se`, `para` e `enquanto`.
+*   **Execução Direta**: Use atalhos do teclado para rodar o código.
+
+[Ver extensão no VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=DeriksKarlay.lipo)
+
+---
+
+## Próximos Passos
+
+Agora que você já tem o LiPo instalado, que tal [criar o seu primeiro programa](/pages/inicio_rapido)?

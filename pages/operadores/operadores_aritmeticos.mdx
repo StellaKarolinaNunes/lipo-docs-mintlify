@@ -4,40 +4,41 @@ title: "Operadores Aritméticos"
 
  
 
-Os operadores aritméticos são utilizados para realizar operações matemáticas entre valores numéricos ou, em alguns casos, operações sobre strings (como concatenação). Eles estão presentes em praticamente todas as linguagens de programação assim como no LiPo.
+Os operadores aritméticos são utilizados para realizar operações matemáticas entre valores numéricos ou, em alguns casos, operações sobre strings (como concatenação).
 
-## Operadores:
+## Lista de Operadores
 
-* += Adição / Concatenação
+Abaixo estão os operadores suportados pelo LiPo:
 
-* -= Subtração
+| Operador | Operação             | Descrição                                         | Exemplo (`a := 10, b := 3`) |
+|----------|----------------------|---------------------------------------------------|----------------------------|
+| `+`      | Adição / Concatenação| Soma valores ou une textos                       | `a + b` resultará em `13`  |
+| `-`      | Subtração            | Subtrai o segundo valor do primeiro              | `a - b` resultará em `7`   |
+| `*`      | Multiplicação        | Multiplica dois valores                          | `a * b` resultará em `30`  |
+| `/`      | Divisão              | Divide o primeiro valor pelo segundo             | `a / b` resultará em `3.33`|
+| `%`      | Módulo               | Retorna o resto da divisão inteira               | `a % b` resultará em `1`   |
 
-* *= Multiplicação
+---
 
-* /= Divisão
+## Exemplos Práticos
 
-* %= Módulo
+### Operações Matemáticas
+```lipo
+inteiro x := 20;
+inteiro y := 5;
 
-## Descrição: 
+imprima x + y; // 25
+imprima x - y; // 15
+imprima x * y; // 100
+imprima x / y; // 4
+```
 
-* Adição / Concatenação = Soma dois valores numéricos ou concatena duas strings
+### Concatenação de Textos
+```lipo
+texto primeiroNome := "Stella ";
+texto sobrenome := "Karolina";
 
-* Subtração = Subtrai o segundo valor do primeiro
+imprima primeiroNome + sobrenome; // "Stella Karolina"
+```
 
-* Multiplicação = Multiplica dois valores
-
-* Divisão = Divide o primeiro valor pelo segundo
-
-* Módulo = Retorna o resto da divisão entre dois valores
-
-## Exemplo:
-
-*  Adição / Concatenação = a + b ou "Olá, " + nome
-
-* Subtração = precoTotal - desconto
-
-* Multiplicação = largura * altura
-
-* Divisão = total / quantidade
-
-* Módulo = 10 % 3 resulta em 1
+<Tip> Lembre-se que o operador de divisão (`/`) entre dois inteiros pode resultar em um valor do tipo `real` se houver resto.</Tip>
